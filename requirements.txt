@@ -1,7 +1,15 @@
-langchain
-langchain-community
-transformers
-torch
-sentence-transformers
-faiss-cpu
-pypdf
+# LangChain e módulos necessários
+langchain>=0.2.0
+langchain-community>=0.0.19
+langchain-huggingface>=0.0.5
+
+# Modelos e embeddings
+transformers>=4.40.0
+sentence-transformers>=2.6.1
+torch>=2.2.0
+
+# Vetorização
+faiss-cpu>=1.7.4
+
+# Leitura de PDFs
+pypdf>=4.0.0
