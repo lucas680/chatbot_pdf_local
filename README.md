@@ -16,3 +16,6 @@ python chatbot_pdf.py
 
 # 5. Sair do ambiente
 deactivate
+
+## Rodar API
+uvicorn api_chatbot:app --reload

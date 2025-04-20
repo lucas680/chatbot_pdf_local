@@ -13,3 +13,6 @@ faiss-cpu>=1.7.4
 
 # Leitura de PDFs
 pypdf>=4.0.0
+
+# Para criar a api
+fastapi[all]
